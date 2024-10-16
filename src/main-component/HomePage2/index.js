@@ -3,7 +3,6 @@ import Navbar from '../../components/Navbar';
 import Hero2 from '../../components/hero2';
 import Service from '../../components/Service';
 import AboutS2 from '../../components/AboutS2';
-import CauseSection from '../../components/CauseSection';
 import EventSection from '../../components/EventSection';
 import Footer from '../../components/footer';
 import Scrollbar from '../../components/scrollbar';
@@ -19,7 +18,6 @@ const HomePage = () => {
       <Service Fclass={'wpo-features-section-s2'} />
       <AboutS2 />
       <FunFact />
-      <CauseSection />
       <ProjectSection />
       <EventSection />
       <Scrollbar />

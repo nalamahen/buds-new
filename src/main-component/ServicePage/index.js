@@ -1,21 +1,20 @@
-import React, {Fragment} from 'react';
+import React, { Fragment } from 'react';
 import Navbar2 from '../../components/Navbar2';
-import PageTitle from '../../components/pagetitle'
-import Footer from '../../components/footer'
-import Scrollbar from '../../components/scrollbar'
-import Logo from '../../images/logo.png'
+import PageTitle from '../../components/pagetitle';
+import Footer from '../../components/footer';
+import Scrollbar from '../../components/scrollbar';
+import Logo from '../../images/logo5.png';
 import Service5 from '../../components/Service5';
 
-const ServicePage =() => {
-    return(
-        <Fragment>
-            <Navbar2 Logo={Logo}/>
-            <PageTitle pageTitle={'Service'} pagesub={'Service'}/> 
-            <Service5/>
-            <Footer/>
-            <Scrollbar/>
-        </Fragment>
-    )
+const ServicePage = () => {
+  return (
+    <Fragment>
+      <Navbar2 Logo={Logo} />
+      <PageTitle pageTitle={'Service'} pagesub={'Service'} />
+      <Service5 />
+      <Footer />
+      <Scrollbar />
+    </Fragment>
+  );
 };
 export default ServicePage;
-

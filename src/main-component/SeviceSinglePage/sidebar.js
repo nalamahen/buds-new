@@ -1,20 +1,10 @@
 import React from 'react';
 import Services from '../../api/service';
 import { Link } from 'react-router-dom';
-import ins1 from '../../images/instragram/1.jpg';
-import ins2 from '../../images/instragram/2.jpg';
-import ins3 from '../../images/instragram/3.jpg';
-import ins4 from '../../images/instragram/4.jpg';
-import ins5 from '../../images/instragram/5.jpg';
-import ins6 from '../../images/instragram/6.jpg';
 
 import Projects from '../../api/projects';
 
 const ServiceSidebar = ({ id }) => {
-  const SubmitHandler = (e) => {
-    e.preventDefault();
-  };
-
   const ClickHandler = () => {
     window.scrollTo(10, 0);
   };

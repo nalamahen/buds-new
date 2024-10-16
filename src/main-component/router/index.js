@@ -2,8 +2,6 @@ import React from 'react';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
 import Homepage from '../HomePage';
-import Homepage2 from '../HomePage2';
-import Homepage3 from '../HomePage3';
 import AboutPage from '../AboutPage';
 import ServicePage from '../ServicePage';
 import SeviceSinglePage from '../SeviceSinglePage';
@@ -25,8 +23,6 @@ const AllRoute = () => {
         <Routes>
           <Route exact path="/" element={<Homepage />} />
           <Route path="home" element={<Homepage />} />
-          <Route path="home2" element={<Homepage2 />} />
-          <Route path="home3" element={<Homepage3 />} />
           <Route path="about" element={<AboutPage />} />
           <Route path="service" element={<ServicePage />} />
           <Route path="service-single/:id" element={<SeviceSinglePage />} />
