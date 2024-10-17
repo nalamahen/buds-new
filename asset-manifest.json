@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/buds-new/static/css/main.03d973cc.css",
-    "main.js": "/buds-new/static/js/main.0c06226a.js",
-    "static/js/787.5be1c834.chunk.js": "/buds-new/static/js/787.5be1c834.chunk.js",
+    "main.js": "/buds-new/static/js/main.7a2cbd59.js",
+    "static/js/787.1ace8e2d.chunk.js": "/buds-new/static/js/787.1ace8e2d.chunk.js",
     "static/media/secretary-annual-report-agm-2020.pdf": "/buds-new/static/media/secretary-annual-report-agm-2020.6f977b88170c900ca392.pdf",
     "static/media/newsletter-2020.pdf": "/buds-new/static/media/newsletter-2020.fd69487e65a505b3a5ac.pdf",
     "static/media/school-children.jpg": "/buds-new/static/media/school-children.65ba915a576c147bbe9e.jpg",
@@ -108,11 +108,11 @@
     "static/media/slick.woff": "/buds-new/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/buds-new/index.html",
     "main.03d973cc.css.map": "/buds-new/static/css/main.03d973cc.css.map",
-    "main.0c06226a.js.map": "/buds-new/static/js/main.0c06226a.js.map",
-    "787.5be1c834.chunk.js.map": "/buds-new/static/js/787.5be1c834.chunk.js.map"
+    "main.7a2cbd59.js.map": "/buds-new/static/js/main.7a2cbd59.js.map",
+    "787.1ace8e2d.chunk.js.map": "/buds-new/static/js/787.1ace8e2d.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.03d973cc.css",
-    "static/js/main.0c06226a.js"
+    "static/js/main.7a2cbd59.js"
   ]
 }
