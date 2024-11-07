@@ -8,6 +8,7 @@ import Logo from '../../images/logo5.png';
 import Service from '../../components/Service';
 import AboutS2 from '../../components/AboutS2';
 import TeamSection from '../../components/TeamSection';
+import History from '../../components/History';
 
 const AboutPage = () => {
   return (
@@ -15,6 +16,7 @@ const AboutPage = () => {
       <Navbar Logo={Logo} />
       <PageTitle pageTitle={'About Us'} pagesub={'About'} />
       <VideoSec />
+      <History />
       <Service Fclass={'wpo-features-section-s2'} />
       <AboutS2 />
       <TeamSection />

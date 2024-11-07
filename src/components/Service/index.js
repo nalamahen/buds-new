@@ -20,11 +20,16 @@ const Service = (props) => {
           {Services.slice(0, 4).map((service, sitem) => (
             <div className="col col-xl-3 col-lg-6 col-sm-6 col-12" key={sitem}>
               <div className="wpo-features-item">
-                <div className="wpo-features-icon">
-                  <div className="icon">
-                    <i className={`fi  ${service.fIcon1}`}></i>
+                <Link
+                  onClick={ClickHandler}
+                  to={`/service-single/${service.id}`}
+                >
+                  <div className="wpo-features-icon">
+                    <div className="icon">
+                      <i className={`fi  ${service.fIcon1}`}></i>
+                    </div>
                   </div>
-                </div>
+                </Link>
                 <div className="wpo-features-text">
                   <h2>
                     <Link
